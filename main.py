@@ -12,7 +12,7 @@ from PIL import Image, ImageTk
 root = Tk()
 root.title("Weather App")
 root.geometry("890x470+300+300")
-root.configure(bg="#57adff")
+root.configure(bg="#DAA520")
 root.resizable(False,False)
 
 # Function to get the weather data
@@ -198,7 +198,7 @@ image_icon = PhotoImage(file="Images/logo.png")
 root.iconphoto(False,image_icon)
 
 Round_box = PhotoImage(file="Images/Rounded Rectangle 1.png")
-Label(root,image=Round_box,bg="#57adff").place(x=30,y=110)
+Label(root,image=Round_box,bg="#DAA520").place(x=30,y=110)
 
 
 ##label
@@ -220,7 +220,7 @@ label5.place(x=50,y=200)
 
 ##Search box
 Search_image=PhotoImage(file="Images/Rounded Rectangle 3.png")
-myimage=Label(image=Search_image,bg="#57adff")
+myimage=Label(image=Search_image,bg="#DAA520")
 myimage.place(x=270,y=120)
 
 weat_image=PhotoImage(file="Images/Layer 7.png")
@@ -254,15 +254,15 @@ Label(frame,image=secondbox,bg="#212120").place(x=800,y=30)
 
 
 #clock
-clock=Label(root,font=("Helvetica",30,'bold'),fg="white",bg="#57adff")
+clock=Label(root,font=("Helvetica",30,'bold'),fg="white",bg="#DAA520")
 clock.place(x=30,y=20)
 
 #timezone
-timezone=Label(root,font=("Helvetica",20),fg="white",bg="#57adff")
+timezone=Label(root,font=("Helvetica",20),fg="white",bg="#DAA520")
 timezone.place(x=700,y=20)
 
 
-long_lat=Label(root,font=("Helvetica",10),fg="white",bg="#57adff")
+long_lat=Label(root,font=("Helvetica",10),fg="white",bg="#DAA520")
 long_lat.place(x=700,y=50)
 
 #thpwd
@@ -288,7 +288,7 @@ day1.place(x=100,y=5)
 firstimage=Label(firstframe,bg="#282829")
 firstimage.place(x=1,y=15)
 
-day1temp=Label(firstframe,bg="#282829",fg="#57adff",font="arial 15 bold")
+day1temp=Label(firstframe,bg="#282829",fg="#DAA520",font="arial 15 bold")
 day1temp.place(x=100,y=50)
 
 
